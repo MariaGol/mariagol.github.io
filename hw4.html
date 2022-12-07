@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Тестируем все подряд</title>
+    <style>
+        .p1 {
+            background-color: rgb(234, 137, 10);
+            font-size: 22px;
+            color: rgb(255, 255, 255);
+            padding: 15px;
+        }
+
+        mark {
+            background-color: rgb(249, 183, 193);
+            font-size: 25px;
+        }
+
+        td,
+        th {
+            color: rgb(255, 255, 255);
+            border: rgb(154, 53, 232) 5px solid;
+            background-color: rgb(80, 73, 79);
+            text-align: left;
+        }
+
+        input {
+            border: rgb(6, 189, 6) 5px solid;
+        }
+
+        input[type=submit] {
+            border: rgb(6, 46, 189) 5px solid;
+        }
+
+        ul {
+            text-align: center;
+            font-size: 27px;
+            width: 50%;
+            border-radius: 22px;
+            background-color: rgb(63, 63, 63);
+            color: rgb(255, 255, 255);
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Заголовок 1 - Текст</h1>
+    <p class="p1">Обычный текст параграфа <em>курсив</em> <mark>выделенный</mark> <small>маленький</small>
+        <large>большой</large>
+    </p>
+    <h2>Заголовок 2 - ссылка</h2>
+    <p class="link"><a href="https://raferalston.github.io/assets/link.html">Ссылка на документ link.html</a></p>
+    <h3> Заголовок 3 - Таблица</h3>
+    <table>
+        <tr>
+            <th>Картинка 1</th>
+            <th>Картинка 2</th>
+        </tr>
+        <tr>
+            <td><img src="images/pic1.png"></td>
+            <td><img src="images/pic2.png"></td>
+        </tr>
+    </table>
+    <h4>Заголовок 4 - форма</h4>
+    <form action="https://www.google.com/search" method="get" target="_blank">
+        <input type="text" name="q" />
+        <input class="button" type="submit" value="Найти" />
+    </form>
+    <div>
+        <ul>
+            <li>Используемые теги</li>
+            <li>h1, h2, h3, h4, p, div, i, a, mark, em, small, strong, table, img, form</li>
+            <li>В папке уже лежат две картинки pic1.png и pic2.png</li>
+            <li>tag { border : размер типграницы цвет }</li>
+        </ul>
+    </div>
+</body>
+
+</html>
